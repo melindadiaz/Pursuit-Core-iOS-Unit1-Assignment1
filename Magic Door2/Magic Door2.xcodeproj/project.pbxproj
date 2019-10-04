@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D2477E92343F6BD001FB7F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2477E82343F6BD001FB7F6 /* main.swift */; };
+		4D705ACC2347C595002B4B7D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D705ACB2347C595002B4B7D /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4D2477E32343F6BD001FB7F6 /* CopyFiles */ = {
+		4D705AC62347C595002B4B7D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D2477E52343F6BD001FB7F6 /* Magic Door */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Magic Door"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D2477E82343F6BD001FB7F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4D705AC82347C595002B4B7D /* Magic Door2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Magic Door2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D705ACB2347C595002B4B7D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D2477E22343F6BD001FB7F6 /* Frameworks */ = {
+		4D705AC52347C595002B4B7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,66 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D2477DC2343F6BD001FB7F6 = {
+		4D705ABF2347C595002B4B7D = {
 			isa = PBXGroup;
 			children = (
-				4D2477E72343F6BD001FB7F6 /* Magic Door */,
-				4D2477E62343F6BD001FB7F6 /* Products */,
+				4D705ACA2347C595002B4B7D /* Magic Door2 */,
+				4D705AC92347C595002B4B7D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4D2477E62343F6BD001FB7F6 /* Products */ = {
+		4D705AC92347C595002B4B7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D2477E52343F6BD001FB7F6 /* Magic Door */,
+				4D705AC82347C595002B4B7D /* Magic Door2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D2477E72343F6BD001FB7F6 /* Magic Door */ = {
+		4D705ACA2347C595002B4B7D /* Magic Door2 */ = {
 			isa = PBXGroup;
 			children = (
-				4D2477E82343F6BD001FB7F6 /* main.swift */,
+				4D705ACB2347C595002B4B7D /* main.swift */,
 			);
-			path = "Magic Door";
+			path = "Magic Door2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D2477E42343F6BD001FB7F6 /* Magic Door */ = {
+		4D705AC72347C595002B4B7D /* Magic Door2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D2477EC2343F6BD001FB7F6 /* Build configuration list for PBXNativeTarget "Magic Door" */;
+			buildConfigurationList = 4D705ACF2347C595002B4B7D /* Build configuration list for PBXNativeTarget "Magic Door2" */;
 			buildPhases = (
-				4D2477E12343F6BD001FB7F6 /* Sources */,
-				4D2477E22343F6BD001FB7F6 /* Frameworks */,
-				4D2477E32343F6BD001FB7F6 /* CopyFiles */,
+				4D705AC42347C595002B4B7D /* Sources */,
+				4D705AC52347C595002B4B7D /* Frameworks */,
+				4D705AC62347C595002B4B7D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Magic Door";
-			productName = "Magic Door";
-			productReference = 4D2477E52343F6BD001FB7F6 /* Magic Door */;
+			name = "Magic Door2";
+			productName = "Magic Door2";
+			productReference = 4D705AC82347C595002B4B7D /* Magic Door2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4D2477DD2343F6BD001FB7F6 /* Project object */ = {
+		4D705AC02347C595002B4B7D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Melinda Diaz";
 				TargetAttributes = {
-					4D2477E42343F6BD001FB7F6 = {
+					4D705AC72347C595002B4B7D = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = 4D2477E02343F6BD001FB7F6 /* Build configuration list for PBXProject "Magic Door" */;
+			buildConfigurationList = 4D705AC32347C595002B4B7D /* Build configuration list for PBXProject "Magic Door2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 4D2477DC2343F6BD001FB7F6;
-			productRefGroup = 4D2477E62343F6BD001FB7F6 /* Products */;
+			mainGroup = 4D705ABF2347C595002B4B7D;
+			productRefGroup = 4D705AC92347C595002B4B7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D2477E42343F6BD001FB7F6 /* Magic Door */,
+				4D705AC72347C595002B4B7D /* Magic Door2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D2477E12343F6BD001FB7F6 /* Sources */ = {
+		4D705AC42347C595002B4B7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2477E92343F6BD001FB7F6 /* main.swift in Sources */,
+				4D705ACC2347C595002B4B7D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4D2477EA2343F6BD001FB7F6 /* Debug */ = {
+		4D705ACD2347C595002B4B7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		4D2477EB2343F6BD001FB7F6 /* Release */ = {
+		4D705ACE2347C595002B4B7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Release;
 		};
-		4D2477ED2343F6BD001FB7F6 /* Debug */ = {
+		4D705AD02347C595002B4B7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		4D2477EE2343F6BD001FB7F6 /* Release */ = {
+		4D705AD12347C595002B4B7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D2477E02343F6BD001FB7F6 /* Build configuration list for PBXProject "Magic Door" */ = {
+		4D705AC32347C595002B4B7D /* Build configuration list for PBXProject "Magic Door2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D2477EA2343F6BD001FB7F6 /* Debug */,
-				4D2477EB2343F6BD001FB7F6 /* Release */,
+				4D705ACD2347C595002B4B7D /* Debug */,
+				4D705ACE2347C595002B4B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D2477EC2343F6BD001FB7F6 /* Build configuration list for PBXNativeTarget "Magic Door" */ = {
+		4D705ACF2347C595002B4B7D /* Build configuration list for PBXNativeTarget "Magic Door2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D2477ED2343F6BD001FB7F6 /* Debug */,
-				4D2477EE2343F6BD001FB7F6 /* Release */,
+				4D705AD02347C595002B4B7D /* Debug */,
+				4D705AD12347C595002B4B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4D2477DD2343F6BD001FB7F6 /* Project object */;
+	rootObject = 4D705AC02347C595002B4B7D /* Project object */;
 }
